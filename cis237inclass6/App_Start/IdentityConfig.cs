@@ -53,11 +53,12 @@ namespace cis237inclass6
             // Configure validation logic for passwords
             manager.PasswordValidator = new PasswordValidator
             {
-                RequiredLength = 6,
-                RequireNonLetterOrDigit = true,
-                RequireDigit = true,
-                RequireLowercase = true,
-                RequireUppercase = true,
+                // Commented out because we dont need all these requirements
+                //RequiredLength = 6,
+                //RequireNonLetterOrDigit = true,
+                //RequireDigit = true,
+                //RequireLowercase = true,
+                //RequireUppercase = true,
             };
 
             // Configure user lockout defaults
